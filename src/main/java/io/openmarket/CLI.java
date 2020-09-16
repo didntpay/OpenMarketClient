@@ -1,7 +1,7 @@
-package io.openmarketclient;
+package io.openmarket;
 
 import io.openmarket.account.grpc.AccountService;
-import io.openmarketclient.ComponentClient.OpenMarketAccountClient;
+import io.openmarket.client.OpenMarketAccountClient;
 
 public class CLI {
     public static void main(String[] args) {

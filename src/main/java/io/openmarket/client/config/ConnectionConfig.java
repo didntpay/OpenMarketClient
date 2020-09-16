@@ -1,4 +1,4 @@
-package io.openmarketclient.Config;
+package io.openmarket.client.config;
 
 public class ConnectionConfig {
     public static final String host = "localhost";

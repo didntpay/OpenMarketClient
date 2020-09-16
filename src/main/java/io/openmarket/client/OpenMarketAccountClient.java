@@ -1,9 +1,9 @@
-package io.openmarketclient.ComponentClient;
+package io.openmarket.client;
 
 import io.openmarket.account.grpc.AccountGrpc;
 import io.openmarket.account.grpc.AccountService.*;
-import io.openmarketclient.ChannelFactory;
-import io.openmarketclient.Config.ConnectionConfig;
+import io.openmarket.client.factory.ChannelFactory;
+import io.openmarket.client.config.ConnectionConfig;
 import lombok.Data;
 import lombok.extern.log4j.Log4j2;
 
