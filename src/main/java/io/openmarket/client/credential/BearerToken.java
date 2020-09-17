@@ -21,7 +21,7 @@ public class BearerToken extends CallCredentials {
         appExecutor.execute(() -> {
             try {
                 Metadata headers = new Metadata();
-                headers.put(Metadata.Key.of(GlobalConfig.ATTR_AUTHENTICATION_TOKEN,
+                headers.put(Metadata.Key.of("AuthToken",
                         Metadata.ASCII_STRING_MARSHALLER), token);
                 applier.apply(headers);
             } catch (Throwable e) {
