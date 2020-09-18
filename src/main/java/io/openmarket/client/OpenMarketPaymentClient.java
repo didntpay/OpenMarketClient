@@ -23,4 +23,8 @@ public class OpenMarketPaymentClient extends AbstractOpenMarketClient {
     public PaymentResult createPayment(@NonNull final PaymentRequest request) {
         return stub.processPayment(request);
     }
+
+    public RefundResult refundPayment(@NonNull final RefundRequest request) {
+        return stub.processRefund(request);
+    }
 }
